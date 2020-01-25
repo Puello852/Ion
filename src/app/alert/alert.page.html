@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/home"></ion-back-button>
+      </ion-buttons>
+  
+    <ion-title>alert</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button expand="block" (click)="openAlert()">
+    Alerta sencilla
+  </ion-button>
+
+  
+  <ion-button expand="block" (click)="presentAlertMultipleButtons()">
+    Alerta confirmacion
+  </ion-button>
+
+</ion-content>

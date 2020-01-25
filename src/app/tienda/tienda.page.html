@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tienda</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item>
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Precio</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Cantidad</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+
+  <ion-button color="primary" (click)="agregarProducto()">
+    Agregar
+  </ion-button>
+</ion-content>
