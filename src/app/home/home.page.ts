@@ -30,6 +30,11 @@ export class HomePage {
       icon:'cash',
       name: 'algoritmo',
       redirect: '/tienda'
+    },
+    {
+      icon:'cash',
+      name: 'Pokemon',
+      redirect: '/pokemon'
     }
   ]
   constructor(public menu:MenuController) {}
